@@ -47,13 +47,8 @@ To view the project locally, follow these steps:
 - .Navigate to the project folder.
 - Open the index.html file in a web browser to view the website.
 
-**Usage:**
-Navigation: Explore different sections using the navigation menu.
-Portfolio: Click on project thumbnails to learn more about each project.
-Contact: Fill out the contact form to reach out to me
 
 **Project Structure:**
-/
 - ├── index.html
 - ├── education.html
 - ├── courses.html

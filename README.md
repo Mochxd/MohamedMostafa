@@ -41,7 +41,7 @@ To view the project locally, follow these steps:
 1. **Clone the Repository:**
 
    ```bash
-   git clone https:(https://mochxd.github.io/MohamedMostafa.github.io/)
+   git clone https://github.com/Mochxd/MohamedMostafa.github.io
 
 1. **Open the Project:**
 - .Navigate to the project folder.

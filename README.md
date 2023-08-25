@@ -44,7 +44,7 @@ To view the project locally, follow these steps:
    git clone https://github.com/Mochxd/MohamedMostafa.github.io
 
 1. **Open the Project:**
-- .Navigate to the project folder.
+- Navigate to the project folder.
 - Open the index.html file in a web browser to view the website.
 
 

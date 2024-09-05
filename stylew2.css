@@ -1,0 +1,237 @@
+
+/* General styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header section */
+.header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header nav a.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+}
+
+.header nav ul {
+    list-style: none;
+}
+
+.header nav ul li {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+.header nav ul li a:hover,
+.header nav ul li a.active {
+    background-color: #f4f4f4;
+    color: #333;
+    border-radius: 5px;
+}
+
+/* Home section */
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('background.jpg') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+}
+
+.home-content h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.home-content h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.home-content p {
+    font-size: 18px;
+    max-width: 600px;
+    margin: 0 auto 20px;
+}
+
+.btn-box .download-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn-box .download-btn:hover {
+    background: #0056b3;
+}
+
+/* Section styling */
+section {
+    padding: 60px 0;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+section p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Projects, Skills, Certifications section */
+.projects-content,
+.skills-content,
+.certifications-content {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.projects-content h2,
+.skills-content h2,
+.certifications-content h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.projects-content p,
+.skills-content ul,
+.certifications-content ul {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.projects-content a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 12px;
+    background: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.projects-content a:hover {
+    background: #0056b3;
+}
+
+.skills-content ul {
+    list-style: none;
+}
+
+.skills-content ul li {
+    margin-bottom: 8px;
+}
+
+.certifications-content ul {
+    list-style: none;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+/* Media Queries for mobile */
+@media (max-width: 768px) {
+    .header nav ul {
+        display: none;
+    }
+
+    .header nav .bx-menu {
+        display: block;
+        cursor: pointer;
+        font-size: 24px;
+        color: #fff;
+    }
+
+    .header nav ul.navlist {
+        display: block;
+        background: #333;
+        padding: 10px;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        width: 200px;
+    }
+
+    .header nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .home-content h1 {
+        font-size: 36px;
+    }
+
+    .home-content h3 {
+        font-size: 20px;
+    }
+
+    .home-content p {
+        font-size: 16px;
+    }
+
+    section h2 {
+        font-size: 30px;
+    }
+
+    .projects-content h2,
+    .skills-content h2,
+    .certifications-content h2 {
+        font-size: 24px;
+    }
+
+    .projects-content p,
+    .skills-content ul,
+    .certifications-content ul {
+        font-size: 14px;
+    }
+}
